@@ -1,0 +1,83 @@
+.title {
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+.row {
+    padding-top: 50px;
+    padding-left: 130px;
+}
+
+.days {
+margin-left: 10px;
+}
+
+.row-height {
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.hour-height {
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.col-md-1 {
+    background-color: #f5f3f3;
+}
+
+
+.hours {
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 2px;
+    background-color: #f5f3f3;
+}
+
+.col-md-1 {
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 5px;
+}
+
+.hour4 {
+  background-color:  #00cccc;
+}
+
+.hour3 {
+  background-color: #ccccff;
+}
+
+.hour2 {
+  background-color:  #00cccc;
+}
+
+.hour1 {
+  margin-top: 28px;
+  background-color: #ccccff;
+}
+
+.createNewEvent {
+  margin-top: 0px;
+  margin-left: 20px;
+  color: black;
+}
+
+.schedulerSection {
+  padding-right: 60px;
+}
+
+.colorPicker {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.saveOrCancel {
+  margin-left: 60px;
+  padding-top: 10px;
+}
+
+.listOfEvents {
+  padding-top: 70px;
+}

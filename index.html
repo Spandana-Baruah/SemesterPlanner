@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Semester Planner</title>
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <h1 class="title">Semester Planner</h1>
+    </a>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+  <!-- Grid -->
+  <div class="row">
+
+    <div class="schedulerSection">
+
+      <form>
+        <div class="CreatingNewEvent">
+          <h2>Create a new event:</h2>
+          <div class="form-group">
+            <label for="titleOfEvent">Title</label>
+            <input type="title" class="form-control" aria-describedby="emailHelp" placeholder="Enter title of your event">
+
+          </div>
+
+          <div class="form-group">
+            <label for="hoursRequired">Hours required per week</label>
+            <input type="hours" class="form-control" placeholder="Hours required">
+            <small class="form-text text-muted">Enter the hours you'd like to dedicate to this event per week. Eg: 7</small>
+
+          </div>
+
+          <div class="colorPicker">
+            <label for="colorWell">Click to choose color: </label>
+            <input type="color" value="#ff0000" id="colorWell">
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="savingInputs">Save changes</label>
+            <small class="form-text text-muted">Click on the hours that you'd dedicate to this event. Then click on 'Done'</small>
+          </div>
+
+          <div class="saveOrCancel">
+            <a type="submit" class="btn btn-primary createNewEvent" href="#" role="button">Done</a>
+            <a type="submit" class="btn btn-primary createNewEvent" href="#" role="button">Cancel</a>
+
+          </div>
+        </div>
+
+
+        <div class="listOfEvents">
+          <h2>Your events:</h2>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Study for MCAT
+              <span class="badge badge-primary badge-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Swimming
+              <span class="badge badge-primary badge-pill">2</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Drum Class
+              <span class="badge badge-primary badge-pill">19</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Hljadncj Class
+              <span class="badge badge-primary badge-pill">9</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Fdnsdnsd Class
+              <span class="badge badge-primary badge-pill">4</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Kdkjs Class
+              <span class="badge badge-primary badge-pill">8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Pkadjns Class
+              <span class="badge badge-primary badge-pill">11</span>
+            </li>
+          </ul>
+        </div>
+
+
+      </form>
+    </div>
+
+
+
+
+
+    <div class="col-md-1 row-height mon">
+      Mon
+      <div <button class="hours hour-height hour1 mon">HOUR1</button></div>
+      <div <button class="hours hour-height hour2 mon">HOUR2</button></div>
+      <div <button class="hours hour-height hour3 mon">HOUR3</button></div>
+      <div <button class="hours hour-height hour4 mon">HOUR4</button></div>
+
+    </div>
+    <div class="col-md-1 row-height tue">
+      Tue
+      <div <button class="hours hour-height hour1 tue">HOUR1</button></div>
+      <div <button class="hours hour-height hour2 tue">HOUR2</button></div>
+      <div <button class="hours hour-height hour3 tue">HOUR3</button></div>
+      <div <button class="hours hour-height hour4 tue">HOUR4</button></div>
+
+    </div>
+    <div class="col-md-1 row-height wed">
+      Wed
+      <div <button class="hours hour-height hour1 wed">HOUR1</button></div>
+      <div <button class="hours hour-height hour2 wed">HOUR2</button></div>
+      <div <button class="hours hour-height hour3 wed">HOUR3</button></div>
+      <div <button class="hours hour-height hour4 wed">HOUR4</button></div>
+
+    </div>
+    <div class="col-md-1 row-height thu">
+      Thu
+      <div <button class="hours hour-height hour1 thu">HOUR1</button></div>
+      <div <button class="hours hour-height hour2 thu">HOUR2</button></div>
+      <div <button class="hours hour-height hour3 thu">HOUR3</button></div>
+      <div <button class="hours hour-height hour4 thu">HOUR4</button></div>
+
+    </div>
+    <div class="col-md-1 row-height fri">
+      Fri
+      <div <button class="hours hour-height hour1 fri">HOUR1</button></div>
+      <div <button class="hours hour-height hour2 fri">HOUR2</button></div>
+      <div <button class="hours hour-height hour3 fri">HOUR3</button></div>
+      <div <button class="hours hour-height hour4 fri">HOUR4</button></div>
+
+    </div>
+    <div class="col-md-1 row-height sat">
+      Sat
+      <div <button class="hours hour-height hour1 sat">HOUR1</button></div>
+      <div <button class="hours hour-height hour2 sat">HOUR2</button></div>
+      <div <button class="hours hour-height hour3 sat">HOUR3</button></div>
+      <div <button class="hours hour-height hour4 sat">HOUR4</button></div>
+
+    </div>
+    <div class="col-md-1 row-height sun">
+      Sun
+      <div <button class="hours hour-height hour1 sun">HOUR1</button></div>
+      <div <button class="hours hour-height hour2 sun">HOUR2</button></div>
+      <div <button class="hours hour-height hour3 sun">HOUR3</button></div>
+      <div <button class="hours hour-height hour4 sun">HOUR4</button></div>
+
+      <!-- <button class="w drum">w</button>
+      <button class="a drum">a</button>
+      <button class="s drum">s</button> -->
+    </div>
+  </div>
+
+
+
+
+  <script src="app.js" charset="utf-8"></script>
+
+</body>
+
+</html>
